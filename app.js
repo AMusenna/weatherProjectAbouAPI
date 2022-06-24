@@ -4,7 +4,7 @@ const app = express();
 const port = 3000
 
 app.get("/", function(req, res){
-  const url = "https://api.openweathermap.org/data/2.5/weather?q=Paris&units=metric&appid=65441206f989bc53319e2689fccdc638";
+  const url = "https://api.openweathermap.org/data/2.5/weather?q=Paris&units=metric&appid=HALLOOOOOOOOOOO";
 
   https.get(url, function(response){
     console.log(response.statusCode);
