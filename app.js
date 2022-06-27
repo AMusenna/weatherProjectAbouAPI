@@ -7,10 +7,6 @@ const port = 3000
 app.use(bodyParser.urlencoded({extended: true}));
 
 app.get("/", function(req, res){
-<<<<<<< HEAD
-=======
-  const url = "https://api.openweathermap.org/data/2.5/weather?q=Paris&units=metric&appid=HALLOOOOOOOOOOO";
->>>>>>> de0de42083e6274e3cccf915747686840078f26a
 
       res.sendFile(__dirname + "/index.html")
 
